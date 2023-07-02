@@ -12,10 +12,11 @@
     --font-weight-400: 400;
     --font-weight-500: 500;
     --font-weight-600: 600;
+    --font-weight-700: 700;
     --font-weight-800: 800;
-    --pirmary-gradient-color:  linear-gradient(270deg, #F00 0%, #FF8938 100%);
-    --secondary-gradient-color: linear-gradient(270deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 137, 56, 0.10) 100%);
-    --light-gradient-color: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0.00) 100%); 
+    --primary-gradient-background:  linear-gradient(270deg, #F00 0%, #FF8938 100%);
+    --secondary-gradient-background: linear-gradient(270deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 137, 56, 0.10) 100%);
+    --light-gradient-background: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0.00) 100%); 
 }
   /* All custom CSS goes here */
 body{
@@ -37,4 +38,13 @@ body{
 .header-description{
     font-size: 18px;
     color: var(--text-color);
+}
+.primary-btn{
+    color: #fff;
+    padding: 18px;
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-700);
+    border: 0;
+    border-radius: var(--border-radius);
+    background: var(--primary-gradient-background);
 }
