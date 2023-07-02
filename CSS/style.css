@@ -34,3 +34,7 @@ body{
     line-height: 100px;
     margin-bottom: 14px;
 }
+.header-description{
+    font-size: 18px;
+    color: var(--text-color);
+}
