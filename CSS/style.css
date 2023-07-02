@@ -1,10 +1,11 @@
 /* root css */
 :root{
     --text-color: #777;
-    --header-color: #1c1c1c;
+    --primary-color: #1c1c1c;
     --font-size-16: 16px;
     --font-size-20: 20px; 
     --font-size-25: 25px;
+    --font-size-30: 30px;
     --border-radius: 10px;
     --font-weight-400: 400;
     --font-weight-500: 500;
@@ -55,6 +56,39 @@ body{
 .header-image{
     margin-top: 121px;
     justify-content: center;
+    position: relative;
 }
 
 /* info styles */
+.rating-info{
+    width: 255px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    column-gap: 13px;
+    padding-left: 25px;
+    background-color: #fff;
+    box-shadow: 0px 7px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: var(--border-radius);
+    margin-left: 80px;
+    position: absolute;
+    bottom: 10px;
+}
+.rating-icon{
+    width: 48px;
+    height: 45.943px;
+    margin-bottom: 0;
+}
+.rating-count{
+    color: var(--primary-color);
+    font-size: var(--font-size-30);
+    font-weight: var(--font-weight-800);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.rating-description{
+    color: var(--primary-color);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-600);
+    margin-top: 0;
+}
