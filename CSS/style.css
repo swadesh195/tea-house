@@ -54,6 +54,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 5px;
 }
 .text-center{
     text-align: var(--text-center);
@@ -77,6 +78,7 @@ p{
     font-size: 80px;
     font-weight: 800;
     line-height: 100px;
+    margin-top: 0;
     margin-bottom: 14px;
 }
 .header-description{
@@ -136,16 +138,25 @@ p{
 /************************************ 
         Main Section Styles 
 ***************************************/
-
+.products{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 24px;
+    padding: 50px 0;
+}
 .product{
-    padding: 30px 66px;
+    padding: 30px;
     background: var(--light-gradient-background);
+    border-radius: var(--border-radius);
 }
 .product-img{
     margin-bottom: 9px;
 }
 .product-title{
+    color: var(--primary-color);
+    font-size: var(--font-size-25);
     margin-bottom: 0;
+    font-weight: var(--font-weight-800);
 }
 .product-description{
     margin-top: 10px;
