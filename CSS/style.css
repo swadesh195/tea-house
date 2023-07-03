@@ -2,13 +2,14 @@
                 root css 
 *****************************************************/
 :root{
-    --container-width: 1140px;
     --text-color: #777;
+    --text-center: center;
     --primary-color: #1c1c1c;
     --font-size-16: 16px;
     --font-size-20: 20px; 
     --font-size-25: 25px;
     --font-size-30: 30px;
+    --global-header-size: 45px;
     --border-radius: 10px;
     --font-weight-400: 400;
     --font-weight-500: 500;
@@ -33,11 +34,32 @@ body{
     padding: 0;
     font-family: 'Manrope', sans-serif;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .container{
-    width: var(--container-width);
+    width: 1140px;
+}
+.section-title{
+    color: var(--primary-color);
+    font-size: var(--global-header-size);
+    font-weight: var(--font-weight-800);
+    margin-bottom: 4px;
+}
+.section-description{
+    width: 900px;
+    color: var(--text-color);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.text-center{
+    text-align: var(--text-center);
+}
+p{
+    color: var(--text-color);
 }
 
 /********************************************* 
@@ -114,3 +136,6 @@ body{
 /************************************ 
         Main Section Styles 
 ***************************************/
+.featured-product{
+    
+}
