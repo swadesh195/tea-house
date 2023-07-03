@@ -1,5 +1,8 @@
-/* root css */
+/**************************************************** 
+                root css 
+*****************************************************/
 :root{
+    --container-width: 1140px;
     --text-color: #777;
     --primary-color: #1c1c1c;
     --font-size-16: 16px;
@@ -17,17 +20,29 @@
     --light-gradient-background: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0.00) 100%); 
 }
 
-/* import google font */
+/************************************************** 
+                import google font 
+**************************************************/
   @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 
-  /* All custom CSS goes here */
+/************************************************* 
+                All custom CSS goes here 
+**************************************************/
 body{
     margin: 0;
     padding: 0;
     font-family: 'Manrope', sans-serif;
 }
+.container{
+    width: var(--container-width);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-/* header banner area */
+/********************************************* 
+                header banner area 
+**********************************************/
 .banner-area{
     display: flex;
     justify-content: center;
@@ -61,7 +76,9 @@ body{
     position: relative;
 }
 
-/* info styles */
+/******************************************** 
+            info styles 
+*********************************************/
 .rating-info{
     width: 255px;
     height: 100px;
@@ -94,3 +111,6 @@ body{
     font-weight: var(--font-weight-600);
     margin-top: 0;
 }
+/************************************ 
+        Main Section Styles 
+***************************************/
