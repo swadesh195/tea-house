@@ -229,6 +229,7 @@ p{
 .tea-presented-description{
     color: var(--text-color);
     line-height: 28px;
+    margin-bottom: 4px;
 }
 .unique-taste-title, .premium-quality-title{
     color: var(--primary-color);
