@@ -161,3 +161,15 @@ p{
 .product-description{
     margin-top: 10px;
 }
+
+/* ------------------------------------
+        tea presented image styles
+---------------------------------------- */
+.image-1 {
+    width: 238px;
+    height: 136px;
+    border-radius: 10px;
+    opacity: 0.1;
+    background: linear-gradient(270deg, #F00 0%, #FF8938 100%);
+
+}
