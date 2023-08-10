@@ -177,6 +177,7 @@ p{
         tea presented image styles
 ---------------------------------------- */
 .tea-presented-image{
+    /* width: 476px; */
     display: grid;
     grid-template-columns: repeat(2, 238px) ;
     column-gap: 30px;
@@ -218,6 +219,17 @@ p{
 /* -------------------------------------
         tea presented text styles
 ---------------------------------------- */
+.tea-presented-title{
+    color: var(--primary-color);
+    font-size: var(--global-header-size);
+    font-weight: var(--font-weight-800);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.tea-presented-description{
+    color: var(--text-color);
+    line-height: 28px;
+}
 .unique-taste-title, .premium-quality-title{
     color: var(--primary-color);
     font-size: var(--font-size-20);
