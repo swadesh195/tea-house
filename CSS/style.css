@@ -165,6 +165,11 @@ p{
 /* ------------------------------------
         tea presented image styles
 ---------------------------------------- */
+.tea-presented-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
 .image-1 {
     width: 238px;
     height: 136px;
@@ -172,4 +177,15 @@ p{
     opacity: 0.1;
     background: linear-gradient(270deg, #F00 0%, #FF8938 100%);
 
+}
+.image-2{
+    width: 238px;
+    border-radius: 10px;
+    background: rgba(230, 166, 35, 0.10);
+
+    display: flex;
+    justify-content: center;
+}
+.image-2 img{
+    padding: 58px 30px 38px;
 }
