@@ -51,6 +51,8 @@ main{
 .section-description{
     width: 900px;
     color: var(--text-color);
+    font-weight: 500;
+    line-height: 28px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,6 +162,15 @@ p{
 }
 .product-description{
     margin-top: 10px;
+    font-weight: 600;
+    font-feature-settings: 'clig' off, 'liga' off;
+}
+/* ---------------------------------
+    tea presented container style
+----------------------------------- */
+.tea-presented-container{
+    display: flex;
+    gap: 52px;
 }
 
 /* ------------------------------------
@@ -169,7 +180,6 @@ p{
     display: grid;
     grid-template-columns: repeat(2, 238px) ;
     column-gap: 30px;
-    justify-content: center;
 }
 .image-1 {
     height: 136px;
@@ -203,6 +213,21 @@ p{
     border-radius: 10px;
     opacity: 1;
     background: linear-gradient(90deg, #D9D9D9 0%, rgba(255, 255, 255, 0.00) 100%);
+}
 
-
+/* -------------------------------------
+        tea presented text styles
+---------------------------------------- */
+.unique-taste-title, .premium-quality-title{
+    color: var(--primary-color);
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-800);
+    margin-bottom: 0;
+}
+.unique-taste-description{
+    color: var(--text-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 10px;
 }
