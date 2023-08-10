@@ -167,25 +167,42 @@ p{
 ---------------------------------------- */
 .tea-presented-image{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 238px) ;
+    column-gap: 30px;
     justify-content: center;
 }
 .image-1 {
-    width: 238px;
     height: 136px;
     border-radius: 10px;
     opacity: 0.1;
     background: linear-gradient(270deg, #F00 0%, #FF8938 100%);
 
 }
-.image-2{
-    width: 238px;
+.image-2{   
     border-radius: 10px;
     background: rgba(230, 166, 35, 0.10);
-
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 .image-2 img{
     padding: 58px 30px 38px;
+}
+.image-3{
+    border-radius: 10px;
+    background: rgba(230, 166, 35, 0.10);
+    display: flex;
+    justify-content: center;
+    margin-top: -234px;
+}
+.image-3 img{
+    padding: 58px 30px 38px;
+}
+.image-4 {
+    height: 136px;
+    border-radius: 10px;
+    opacity: 1;
+    background: linear-gradient(90deg, #D9D9D9 0%, rgba(255, 255, 255, 0.00) 100%);
+
+
 }
