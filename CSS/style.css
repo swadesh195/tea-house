@@ -341,16 +341,23 @@ p{
     margin-top: 0;
     margin-bottom: 50px;
 }
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+}
 .blog{
     border: 1px solid #d2d2d2;
     border-radius: 10px;
 }
+.blog-img{
+    margin-bottom: 0;
+}
 .blog-img img{
-    width: 100%;
     padding: 22px;
 }
 .blog-info{
-    padding: 32px;
+    padding: 0 32px 32px 32px;
 }
 .blog-date{
     color: var(--text-color);
