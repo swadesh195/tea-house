@@ -40,7 +40,7 @@ main{
     align-items: center;
 }
 .container{
-    width: 1140px;
+    max-width: 1140px;
 }
 .section-title{
     color: var(--primary-color);
@@ -49,7 +49,6 @@ main{
     margin-bottom: 4px;
 }
 .section-description{
-    width: 900px;
     color: var(--text-color);
     font-weight: 500;
     line-height: 28px;
@@ -94,6 +93,8 @@ p{
     font-weight: var(--font-weight-700);
     border: 0;
     border-radius: var(--border-radius);
+}
+.gradient-bg{
     background: var(--primary-gradient-background);
 }
 .header-image{
@@ -243,4 +244,14 @@ p{
     font-weight: 500;
     line-height: 28px;
     margin-top: 10px;
+}
+
+/* meet our clients styles */
+
+.gradient-color{
+    background: -webkit-linear-gradient(270deg, #F00 0%, #FF8938 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: #fff;
 }
