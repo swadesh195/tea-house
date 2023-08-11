@@ -87,12 +87,14 @@ p{
     color: var(--text-color);
 }
 .primary-btn{
-    color: #fff;
     padding: 18px;
     font-size: var(--font-size-20);
     font-weight: var(--font-weight-700);
     border: 0;
     border-radius: var(--border-radius);
+}
+.text-white{
+    color: #fff;
 }
 .gradient-bg{
     background: var(--primary-gradient-background);
@@ -247,11 +249,84 @@ p{
 }
 
 /* meet our clients styles */
+#super-client-area{
+    background: var(--primary-gradient-background);
+    padding: 150px 70px 190px;
+    border-radius: 10px;
+    display: flex;
+    gap: 57px;
+    position: relative;
+    margin: 100px 0;
+}
 
+.super-client-description{
+    width: 440px;
+    color: #f4f4f4;
+    margin-bottom: 30px;
+}
 .gradient-color{
     background: -webkit-linear-gradient(270deg, #F00 0%, #FF8938 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-color: #fff;
+}
+.bg-white{
+    background: #fff;
+    padding: 14px 8px;
+    border-radius: 8px;
+}
+
+/* ----------------------------------
+        Client Review Styles
+------------------------------------ */
+.super-client-review{
+    width: 433px;
+    /* position: relative; */
+}
+.client-photo{
+    position: relative;
+    top: 35px;
+    left: -25px;
+}
+.client-info{
+    padding: 40px;
+    background: #fff; 
+    border-radius: 7px;
+}
+
+.client-details{
+    color: var(--text-color);
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.client-name{
+    color: var(--primary-color);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+    line-height: 28px;
+}
+.client-designation{
+    color: #5D5A6F;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 0;
+}
+.hidden-section-1{
+    position: absolute;
+    top: 0;
+    right: 60px;
+    opacity: 0.3;
+}
+.visual-section{
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    z-index: 1;
+}
+.hidden-section-2{
+    position: absolute;
+    top: 300px;
+    right: 60px;
+    opacity: 0.3;
 }
