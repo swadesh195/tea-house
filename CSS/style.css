@@ -92,6 +92,7 @@ p{
     font-weight: var(--font-weight-700);
     border: 0;
     border-radius: var(--border-radius);
+    text-decoration: none;
 }
 .text-white{
     color: #fff;
